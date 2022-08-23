@@ -1,0 +1,563 @@
+body {
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
+
+.content-banner{
+    color: #012970;
+    background: url("assets/images/background.png");
+    min-height: 670px;
+    height: 100%;
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 120px;
+}
+
+.content-banner:before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.content-banner .first-title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    position: relative;
+    z-index: 2;
+    font-family: 'Nunito', sans-serif;
+    margin: 0px 0px 12px;
+}
+
+.content-banner .banner-des{
+    color: #444444;
+    font-size: 26px;
+    line-height: 150%;
+    letter-spacing: 0;
+    position: relative;
+    z-index: 2;
+    font-weight: 500;
+    margin-top: 0;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.banner-btn{
+    padding: 0 34px;
+    z-index: 1;
+    margin: 30px auto 25px;
+    line-height: 56px;
+    position: relative;
+    border-radius: 6px;
+    height: 56px;
+    font-size: 16px;
+    background-color: #4154f1;
+    display: inline-block;
+    color: #ffffff;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.banner-btn:hover{
+    text-decoration: none;
+    background-color: #007aff;
+    color: white;
+}
+
+.header{
+    position: relative;
+    width: 100%;
+}
+
+.header-inner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    background-color: transparent;
+}
+
+.header-image{
+    
+}
+
+.nav-item .nav-link{
+    display: block;
+    line-height: 36px;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 700;
+    color: #013289;
+    transition: 0.15s;
+}
+
+
+.nav-item .nav-link:hover{
+    color: #007aff;
+}
+
+.header-btn{
+    color: #ffffff;
+    border-radius: 6px;
+    background-color: #4154f1;
+    border: none;
+    font-weight: 500;
+    outline: none;
+    font-size: 15px;
+    padding: 7px 22px;
+}
+
+.header-btn:hover{
+    background-color: #007aff;
+    cursor: pointer;
+}
+
+.navbar-scroll{
+    background-color: #ffffff;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    transition-duration: 0.6s;
+}
+
+.navbar-scroll .nav-item .nav-link{
+    color: #012970;
+}
+
+.navbar-scroll .header-btn{
+    color: #ffffff;
+    background-color:#4154f1;
+}
+
+section{
+    background-color: white;
+    padding: 4rem 0rem 4rem;
+}
+
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+}
+
+.banner-con{
+    padding-top: 80px;
+}
+
+.bg-about{
+    padding-top: 10px;
+    margin-top: 110px;
+    background-color: #f6f9ff;
+}
+
+.about-text{
+    font-size: 25px;
+    font-weight: 700;
+    color: #012970;
+    font-family: "Open Sans", sans-serif;
+}
+
+.about-heading{
+    font-size: 24px;
+    line-height: 1.2;
+    color: #012970;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+
+.about-desc{
+    color: #444444;
+    text-align: justify;
+    line-height: 24px;
+}
+
+.services-text{
+    font-size: 25px;
+    font-weight: 700;
+    color: #012970;
+    font-family: "Open Sans", sans-serif;
+}
+
+.values-text{
+    font-size: 25px;
+    font-weight: 700;
+    color: #012970;
+    font-family: "Open Sans", sans-serif;
+}
+
+#portfolio{
+    background-image: url(bg.png);
+    min-height: 670px;
+    background-size: cover;
+}
+
+.portfolio-text{
+    font-size: 25px;
+    font-weight: 700;
+    color: #012970;
+    font-family: "Open Sans", sans-serif;
+}
+
+.porto-image{
+    overflow: hidden;
+    transition: all 1.2s ease;
+    width: 90%;
+}
+
+.porto-image:hover{
+    transform: scale(1.2);
+}
+
+#contact{
+    background: #f2f5fc;
+}
+
+.contact-header{
+    color: #007aff;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+
+.about-title{
+    color: #4154f1;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+
+.contact-text{
+    color: #012970;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.icon-contact{
+    color:#007aff;
+    padding-bottom: 15px;
+}
+
+.contact-title{
+    color: #012970;
+    font-weight: 700;
+}
+
+.contact-desc{
+    color: #444444;
+    font-size: 14px;
+}
+
+.name-input{
+    padding: 10px 15px;
+}
+
+.email-input{
+    padding: 10px 15px;
+}
+
+.subject-input{
+    padding: 10px 15px;
+}
+
+.message-input{
+    padding: 10px 15px;
+}
+
+.button-contact{
+    background: #4154f1;
+    color: white;
+}
+
+.services-image{
+    max-width: 400px;
+}
+
+.card{
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.inner-img{
+    overflow: hidden;
+}
+
+.inner-img img{
+    width: 60%;
+    transition: all 1.2s ease;
+}
+
+.inner-img:hover img{
+    transform: scale(0.8);
+}
+
+.values-title{
+    color: #012970;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Nunito', sans-serif;
+}
+
+.pricing-header{
+    color: #007aff;
+    font-weight: 600;
+    font-family: 'Nunito', sans-serif;
+}
+
+.pricing-text{
+    color: #012970;
+    font-weight: 700;
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.pricing-img{
+    width: 60%;
+}
+
+.dollar{
+    color: #444444;
+    font-weight: 1000;
+    padding-right: 5px;
+    font-size: 20px;
+}
+
+.card-pricing{
+    transition: all 0.3s;
+}
+
+.card-pricing:hover{
+    transform: scale(1.1);
+}
+
+.card-price{
+    color: #444444;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.card-mo{
+    color: #bababa;
+    font-size: 16px;
+}
+
+.card-text{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.card-list{
+    font-family: 'Open Sans',sans-serif;
+    color: #444444;
+    font-size: 15px;
+}
+
+.card-list-hide{
+    color: #CCCCCC;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+.pricing-free{
+    font-weight: 700;
+    font-size: 20px;
+    color: #07d5c0;
+    font-family: 'Nunito', sans-serif;
+}
+
+.pricing-starter{
+    font-weight: 700;
+    font-size: 20px;
+    color: #65c600;
+    font-family: 'Nunito', sans-serif;
+}
+
+.pricing-bussiness{
+    font-weight: 700;
+    font-size: 20px;
+    color: #ff901c;
+    font-family: 'Nunito', sans-serif;
+}
+
+.pricing-ultimate{
+    font-weight: 700;
+    font-size: 20px;
+    color: #ff0071;
+    font-family: 'Nunito', sans-serif;
+}
+
+.btn-pricing{
+    border-radius: 30px;
+    padding: 8px 35px 8px 35px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #4154f1;
+    border: solid 1px #4154f1;
+    transition: 0.2s;
+}
+
+.btn-pricing:hover{
+    background: #4154f1;
+    color: white;
+}
+
+.services-content{
+    display: inline-block;
+}
+
+.services-icon{
+    font-size: 40px;
+    color: #4154f1;
+}
+
+.count-up{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.testimonial-icon-1{
+    font-size: 50px;
+    color: #4154f1;
+}
+
+.testimonial-icon-2{
+    font-size: 50px;
+    color: #ff901c;
+}
+
+.testimonial-icon-3{
+    font-size: 50px;
+    color: #65c600;
+}
+
+.testimonial-icon-4{
+    font-size: 50px;
+    color: #ff0071;
+}
+
+.testimonial-content{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+}
+
+.counter{
+    font-size: 50px;
+    color: #013289;
+    font-weight: 500;
+}
+
+.content .box{
+    width: calc(25% - 30px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+@media only screen and (min-width: 1200px){
+    .nav-item > .nav-link{
+        padding: 5px 20px !important;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .header-inner{
+        background-color: white !important;
+    }
+    .nav-item > .nav-link{
+        color: #013289 !important;
+    }
+    .nav-item > .nav-link:hover{
+        color: #007aff !important;
+    }
+    .content-banner .first-title{
+        font-size: 30px !important;
+    }
+}
+
+@media screen and (max-width: 991.98px){
+    .banner-con{
+        padding-top: 0;
+    }
+
+    .porto-image{
+        width: 100%;
+    }
+
+    .banner-con{
+        text-align: center;
+    }
+
+    .header-image{
+        width: 100%;
+    }
+
+    .bg-about{
+        margin-top: 30px;
+    }
+
+    .about-image{
+        width: 100%;
+    }
+
+    .porto-image{
+        padding-bottom: 40px;
+    }
+
+    .icon-contact{
+        padding-left: 20px;
+    }
+
+    .contact-title{
+        padding-left: 20px;
+    }
+
+    .contact-desc{
+        padding-left: 20px;
+    }
+
+    .card{
+        -left: 20px;
+    }
+
+    .card-value{
+        margin-bottom: 30px;
+        margin-right: 12px;
+    }
+
+    .card-pricing{
+        margin-bottom: 30px;
+    }
+
+    .services-image{
+        margin-left: 40px;
+        width: 70%;
+    }
+
+    .testimonial-content{
+        margin-bottom: 30px;
+    }
+}
